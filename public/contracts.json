@@ -1,0 +1,55 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "start": "2023-01-01",
+    "clauses": [
+      { "title": "Termination", "summary": "90 days notice period.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "12 months’ fees limit.", "confidence": 0.87 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Liability cap excludes data breach costs." },
+      { "risk": "Medium", "message": "Renewal auto-renews unless cancelled 60 days before expiry." }
+    ],
+    "evidence": [
+      { "source": "Section 12.2", "snippet": "Total liability limited to 12 months’ fees.", "relevance": 0.91 }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "start": "2024-01-01",
+    "clauses": [],
+    "insights": [],
+    "evidence": []
+  },
+  {
+    "id": "c3",
+    "name": "SaaS demo",
+    "parties": "web developer",
+    "expiry": "2026-01-01",
+    "status": "Renewal Due",
+    "risk": "High",
+    "start": "2025-01-01",
+    "clauses": [
+         { "title": "Termination", "summary": "90 days notice period.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "12 months’ fees limit.", "confidence": 0.87 }
+    ],
+    "insights": [
+        { "risk": "High", "message": "Liability cap excludes data breach costs." },
+      { "risk": "Medium", "message": "Renewal auto-renews unless cancelled 60 days before expiry." }
+    ],
+    "evidence": [
+         { "source": "Section 12.2", "snippet": "Total liability limited to 12 months’ fees.", "relevance": 0.98 },
+          { "source": "Section 12.2", "snippet": "Total liability limited to 12 months’ fees.", "relevance": 0.91 }
+    ]
+  }
+]
